@@ -1,0 +1,111 @@
+html,body, #root, .App {
+  height: 100%;
+  width: 100%;
+}
+ul {
+    padding: 10px;
+     padding-right: 2px;
+    display: inline-block;
+}
+hr { width:75%; height:1px; background: #C0C0C0; opacity: 0.5;}
+.header {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  background-image:url("./assets/mountain.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.ul-none{
+  list-style-type: none
+}
+.footer-p{
+  font-size: 10px;
+}
+.footer-icon{
+  font-size: 30px;
+}
+.footercard{
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+  color: white;
+}
+
+.footer2{
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+}
+.footer {
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.grad {
+  background: rgb(65, 202, 163, 75%);  /* fallback for old browsers */
+  background: #1F74D4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom right, rgb(65, 202, 163, 75%), rgb(170, 200, 169));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom right, rgb(65, 202, 163, 75%), rgb(170, 200, 169)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#home {
+  height: 100%;
+  width: 100%;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  background-color: #E0E0E0;
+  padding: 10px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  background-color: #E0E0E0;
+  padding: 10px;
+}
+#footer3{
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+}
